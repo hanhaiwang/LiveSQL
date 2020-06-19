@@ -30,7 +30,7 @@ LiveSQL是Android移动端的一个简单易用的实用型数据库框架。是
 
    ```groovy
    dependencies {
-       implementation 'com.github.hanhaiwang:LiveSQL:1.0.1'
+       implementation 'com.github.hanhaiwang:LiveSQL:1.0.0'
    }
    ```
 
