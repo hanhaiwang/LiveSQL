@@ -89,19 +89,19 @@ public interface ILiveBase<T> {
     Map<String,Object> queryRow();
 
     /**
+     * 查询一条记录
+     * @param columns           列名称数组
+     * @return
+     */
+    Map<String,Object> queryRow(String[] columns);
+
+    /**
      * 查记一条记录
      * @param selection         条件字段，相当于where
      * @param selectionArgs     条件字段，参数数组
      * @return
      */
     Map<String,Object> queryRow(String selection, String[] selectionArgs);
-
-    /**
-     * 查询一条记录
-     * @param columns           列名称数组
-     * @return
-     */
-    Map<String,Object> queryRow(String[] columns);
 
     /**
      * 按条件查询一条记录
@@ -133,8 +133,6 @@ public interface ILiveBase<T> {
      * @return
      */
     Map<String,Object> queryRow(String[] columns, String selection, String[] selectionArgs, String groupBy, String having, String orderBy);
-
-
 
     /**
      * 更新数据
