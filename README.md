@@ -56,6 +56,11 @@ LiveSQL是Android移动端的一个简单易用的实用型数据库框架。是
    ```xml
    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+   
+   <application
+       android:name=".APP" 
+       .......>
+   </application>
    ```
 
 
